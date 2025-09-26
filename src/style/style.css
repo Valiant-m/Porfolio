@@ -1,0 +1,58 @@
+body {
+ background-color: white;
+}
+
+/*Nav Bar*/
+.navbar {
+    padding-bottom: 10px;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    padding: 0;            
+    margin: 0;             
+    display: flex;        
+    justify-content: flex-end; 
+}
+
+.navbar li {
+    margin-right: 20px;    
+}
+
+.navbar li:hover {
+    color: white;
+    cursor: pointer; 
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: black;          
+    font-weight: bold;     
+}
+
+/*Profile*/
+.profile-content h1, .profile-content h2 {
+  margin: 0; 
+}
+
+
+
+/*Home Section*/
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image img {
+  max-width: 250px;
+  height: auto;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+}
